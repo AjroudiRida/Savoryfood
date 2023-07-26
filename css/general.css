@@ -53,6 +53,14 @@ body {
   margin-right: 1.6rem !important;
 }
 
+.margin-bottom-sm {
+  margin-bottom: 4.8rem !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .grid {
   display: grid;
   row-gap: 9.6rem;
@@ -95,4 +103,21 @@ strong {
 
 .tag--paleo {
   background-color: #ffd43b;
+}
+
+.link:link,
+ .link:visited {
+  font-size: 1.8rem;
+  display: inline-block;
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  transition: all 0.3s;
+  padding-bottom: 0.4rem;
+}
+
+.link:hover,
+ .link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
 }
