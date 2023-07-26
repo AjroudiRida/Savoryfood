@@ -1,20 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-family: 'Rubik',sans-serif;
-  color: #555;
-  line-height: 1;
-  font-weight: 400;
-  font-size: 2rem;
-}
 
 .header {
   display: flex;
@@ -79,13 +63,40 @@ body {
   gap: 9.6rem;
 }
 
-.heading-primary {
-  font-size: 5.2rem;
+.heading-primary, 
+.heading-secondary,
+.heading-tertiary {
   font-weight: 700;
   letter-spacing: -0.5px;
-  line-height: 1.1;
   color: #333;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
   margin-bottom: 3.2rem;
+  line-height: 1.1;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.1;
+  margin-bottom: 9.2rem;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.subheading {
+  display: block;
+  color: #cf711f;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  margin-bottom: 1.6rem;
 }
 
 .hero-description {
@@ -95,38 +106,6 @@ body {
   margin-bottom: 4.8rem;
 }
 
-.btn:link,
-.btn:visited {
-  display: inline-block;
-  padding: 1.6rem 3.2rem;
-  border-radius: 10px;
-  text-decoration: none;
-  transition: all 0.3s;
-  font-weight: 600;
-}
-
-.btn--cta:link,
-.btn--cta:visited {
-  background-color: #e67e22;
-  color: #fff;
-}
-
-.btn--outline:link,
-.btn--outline:visited {
-  background-color: #fff;
-  color: #555;
-}
-
-.btn--cta:hover,
-.btn--cta:active {
-  background-color: #cf711f;
-}
-
-.btn--outline:hover,
-.btn--outline:active {
-  background-color: #fdf2e9;
-  box-shadow: inset 0 0 0 3px #fff;
-}
 
 .hero-delivered-foods {
   margin-top: 8rem;
@@ -161,12 +140,56 @@ body {
 }
 
 
-.margin-right-sm {
-  margin-right: 1.6rem !important;
-}
-
-
 .hero-img {
   width: 100%;
 }
+
+.step-img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.step-img-box::before, .step-img-box::after {
+  content: '';
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+}
+
+.step-img-box::before {
+  background-color: #fdf2e9;
+  width: 60%;
+  padding-bottom: 60%;
+  z-index: -2;
+}
+
+.step-img-box::after {
+  background-color: #fae5d3;
+  width: 45%;
+  padding-bottom: 45%;
+  z-index: -1;
+}
+
+.step-img {
+  width: 35%;
+}
+
+.section-how {
+  padding: 9.2rem 0;
+}
+
+.step-number {
+  color: #ddd;
+  font-size: 8.6rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+
+.step-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
 
