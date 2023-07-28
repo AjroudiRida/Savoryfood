@@ -227,6 +227,10 @@
   grid-template-columns: 55fr 45fr;
 }
 
+.section-pricing {
+  padding: 9.2rem 0;
+}
+
 .meal {
   box-shadow: 0 2.4rem 4.8rem rgba(0,0,0,0.075);
   border-radius: 12px;
@@ -363,5 +367,43 @@
 .testimonials-container {
   padding: 9.2rem;
   align-self: center;
+}
+
+.header-plan {
+  margin-bottom: 4.8rem;
+  text-align: center;
+}
+
+.plan-title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.75;
+  color: #cf711f;
+  margin-bottom: 3.2rem;
+}
+
+.plan-price {
+  font-size: 6.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
+
+.plan-price span {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+
+.plan-duration {
+  color: #6f6f6f;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.plan-sign-up {
+  margin-top: 4.8rem;
+  text-align: center;
 }
 
