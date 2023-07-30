@@ -14,7 +14,7 @@
 .main-nav-list {
   display: flex;
   list-style: none;
-  gap: 3.2rem;
+  gap: 4.8rem;
   align-items: center;
 }
 
@@ -302,6 +302,7 @@
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-icon {
@@ -508,6 +509,8 @@
     url("../img/eating.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+
 }
 
 .cta-form {
