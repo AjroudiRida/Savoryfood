@@ -18,7 +18,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  <!-- - [🚀 Live Demo](#live-demo) -->
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -36,9 +36,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Leaderboard <a name="about-project"></a>
+# 📖 SavoryFood <a name="about-project"></a>
 
-**Leaderboard** is a project that displays scores submitted by different players. It also allows you to submit your score.
+**SavoryFood** is an innovative project centered around a restaurant's landing page, providing affordable monthly subscriptions for wholesome meals, making it accessible for everyone to enjoy nutritious dining without breaking the bank.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -47,26 +47,25 @@
 - HTML
 - CSS
 - Javascript
-- webpack
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
 
-- Get and submit data using fetch API with the help of async function
-- use of webpack
+- clean design
+- mobile friendly
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO
+LIVE DEMO
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://ajroudirida.github.io/Leaderboard/dist)
+- [Live Demo Link](https://ubiquitous-seahorse-3418d9.netlify.app/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -79,23 +78,20 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 - vscode or any other code editor such as sublime text or atom.
-- You must have git and npm installed in your system.
 
 ### Setup
 
-Clone this repository to your desired folder: https://github.com/AjroudiRida/To-Do-list.git
+Clone this repository to your desired folder: https://github.com/AjroudiRida/Savoryfood.git
 
 ### Install
 
 Install this project with: 
-- git clone https://github.com/AjroudiRida/Leaderboard.git command and then use cd leaderboard command to access the local repository.
-- run npm install -y
+- git clone https://github.com/AjroudiRida/Savoryfood.git command and then use cd savoryfood command to access the local repository.
 
 
 ### Usage
 
-To run the project, use the commad line "npm run dev" then a new tab will open in your browser with the to Do list app.
-
+activate live server in vscode and the site will open automatically in the browser
 
 ### Run tests
 
@@ -154,7 +150,7 @@ If you like this project please follow me on twitter for more information and ne
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I'd like to thank Microverse for this opportunity, as well as my coding partners.
+Thank you for visiting this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
