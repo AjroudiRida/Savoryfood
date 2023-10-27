@@ -3,10 +3,9 @@
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  Leaderboard
   <br/>
 
-  <h3><b>Leaderboard</b></h3>
+  <h3><b>SavoryFood</b></h3>
 
 </div>
 
